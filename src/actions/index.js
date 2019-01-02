@@ -5,7 +5,7 @@ export function saveComment(comment) {
   return {
     type: SAVE_COMMENT,
     payload: comment
-  }
+  };
 }
 
 export function fetchComments() {
@@ -14,5 +14,5 @@ export function fetchComments() {
   return {
     type: FETCH_COMMENTS,
     payload: response
-  }
+  };
 }
